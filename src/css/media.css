@@ -1,0 +1,19 @@
+@media (min-width: 320px) and (max-width: 576px) {
+    .wrapper ul {
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .wrapper ul li {
+        margin: 2px;
+        width: 155px;
+    }
+
+    .wrapper ul li:hover .description {
+        display: block;
+        width: 161px;
+        border-color: #eb5c3e;
+        box-shadow: none;
+    }
+}
